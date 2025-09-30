@@ -52,22 +52,28 @@
           <div class="grid md:grid-cols-2 gap-8">
             <div class="bg-gray-900 rounded-lg p-6 border border-gray-800">
               <img 
-                src="/images/maher1.jpg" 
+                src="/images/diagno.jpg" 
                 alt="Équipement de diagnostic"
                 class="w-full h-48 object-cover rounded-lg mb-4"
               />
-              <h3 class="text-xl font-semibold mb-3 text-[#85c5db]">Diagnostic de Pointe</h3>
-              <p class="text-gray-300">Équipements de diagnostic dernière génération pour identifier précisément les pannes sur tous types de véhicules.</p>
+              <h3 class="text-xl font-semibold mb-3 text-[#85c5db]">
+                Technologie de Diagnostic Électronique Avancée</h3>
+              <p class="text-gray-300">Nous utilisons les outils de diagnostic (OBD) et de programmation les plus
+                 sophistiqués du marché pour interroger et reprogrammer les calculateurs (ECU/BSI) des véhicules,
+                  assurant une prise en charge complète des systèmes antidémarrage (Immobilizer).</p>
             </div>
             
             <div class="bg-gray-900 rounded-lg p-6 border border-gray-800">
               <img 
-                src="/images/maher1.jpg" 
+                src="/images/atelier1.jpg" 
                 alt="Pont élévateur professionnel"
                 class="w-full h-48 object-cover rounded-lg mb-4"
               />
-              <h3 class="text-xl font-semibold mb-3 text-[#85c5db]">Atelier Moderne</h3>
-              <p class="text-gray-300">Ponts élévateurs professionnels et outillage spécialisé pour intervenir en toute sécurité sur votre véhicule.</p>
+              <h3 class="text-xl font-semibold mb-3 text-[#85c5db]">
+                Atelier de Production et Laboratoire Sécurisé</h3>
+              <p class="text-gray-300">Doté d’équipements de coupe et de fraisage CNC de dernière génération,
+                 notre atelier garantit la reproduction millimétrique de toutes vos clés,
+                  y compris les modèles les plus complexes et sécurisés.</p>
             </div>
           </div>
         </div>

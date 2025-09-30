@@ -134,17 +134,17 @@
           <div class="relative p-8">
             <div class="w-full h-48 mb-6 rounded-lg overflow-hidden">
               <img 
-                src="/images/Serrurerie.jpg" 
+                src="/images/neiman.jpg" 
                 alt="Entretien" 
                 class="w-full h-full object-cover rounded-lg"
               />
             </div>
             <h3 class="text-xl font-bold mb-3 text-white group-hover:text-blue-400 transition-colors">
-              Serrurerie Professionnelle
+              Réparation et Adaptation de Neiman et Serrure
             </h3>
             <p class="text-gray-400 leading-relaxed">
-              Sécurisez votre maison ou local commercial. Installation, blindage,
-               et dépannage urgent 24h/24 pour toutes serrures et portes
+              Nous réparons les Neiman bloqués et adaptons les serrures pour que votre clé d'origine fonctionne
+               sur l'ensemble du véhicule
             </p>
           </div>
         </div>
