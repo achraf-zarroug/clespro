@@ -56,7 +56,7 @@
           <span class="text-black">Pourquoi</span> <span class="bg-gradient-to-r from-[#40688c] to-[#85c5db] bg-clip-text text-transparent drop-shadow-[0_0_1px_black]">Clés Pro</span> ?
         </h2>
         <p class="text-gray-600 text-lg max-w-2xl mx-auto">
-          Serrurerie complète, production de clés de haute précision et programmation diagnostique avancée
+          Serrurerie complète, production de clés de haute précision et programmation diagnostic avancée
         </p>
       </div>
 

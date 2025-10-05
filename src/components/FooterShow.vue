@@ -6,12 +6,12 @@
           <div class="mb-6">
             <img 
               src="/cles.png" 
-              alt="CLES PRO - Serrurerie, production de clés et programmation diagnostique" 
+              alt="CLES PRO - Serrurerie, production de clés et programmation diagnostic" 
               class="w-48 h-auto"
             />
           </div>
           <p class="text-muted-foreground leading-relaxed max-w-md">
-            Tous travaux de serrurerie, production de clés et programmation diagnostique. 
+            Tous travaux de serrurerie, production de clés et programmation diagnostic. 
             Votre partenaire de confiance pour l'excellence automobile.
           </p>
         </div>
@@ -20,7 +20,7 @@
           <h4 class="text-lg font-semibold mb-6 text-white">Contact</h4>
           <div class="space-y-4">
             <a 
-              href="tel:0634178477" 
+              href="tel:0758563529" 
               class="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors group"
             >
               <div class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
@@ -29,7 +29,7 @@
                     d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.036 3.11a1 1 0 01-.272 1.06l-2.2 2.2a16.001 16.001 0 006.586 6.586l2.2-2.2a1 1 0 011.06-.272l3.11 1.036a1 1 0 01.684.948V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
               </div>
-              <span class="font-medium">06 34 17 84 77</span>
+              <span class="font-medium">07 58 56 35 29</span>
             </a>
 
             <a 
@@ -68,7 +68,7 @@
           <h4 class="text-lg font-semibold mb-6 text-white">Suivez-nous</h4>
           <div class="space-y-3">
             <a 
-              href="#" 
+              href="https://www.facebook.com/profile.php?id=61573495541938" 
               class="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors group"
             >
               <div class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
@@ -106,7 +106,7 @@
             </a>
             
             <a 
-              href="#" 
+              href="https://www.snapchat.com/@karimlagha25?share_id=KFg3e2vYgnQ&locale=fr-FR" 
               class="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors group"
             >
               <div class="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
