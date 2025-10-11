@@ -127,10 +127,11 @@ const submitForm = () => {
     to_email: "laghak@yahoo.fr" // destinataire
   }
 
-  emailjs.send("SERVICE_ID", "TEMPLATE_ID", templateParams, "PUBLIC_KEY")
+  emailjs.send("service_e3h5it4", "template_a68n61k", templateParams, "SPoSZA9MtyH-1cJsx")
     .then(() => {
       alert("Message envoyé avec succès ✅")
       form.value = { name: "", email: "", message: "" }
+      console.log(form.value)
     })
     .catch((error) => {
       console.error("Erreur:", error)
