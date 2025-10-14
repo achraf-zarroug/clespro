@@ -13,35 +13,35 @@ const router = createRouter({
       name: 'home',
       component: Home,
       meta: {
-        title: 'Page d acceuil - CLES PRO',
-        description: 'page d acceuil de CLES PRO'
-      }
+    title: 'Serrurier Auto Metz : Reproduction, Réparation et Clé de Sécurité - CLES PRO', 
+    description: 'Votre expert en reproduction et réparation de clés auto (Plip, Neiman, Kit de démarrage) et clés de sécurité. Service rapide à Metz et Woippy.'
+  }
     },
     {
       path: '/about',
       name: 'about',
       component: About,
-      meta: {
-        title: 'à propos - CLES PRO',
-        description: 'informations de CLES PRO'
+       meta: {
+        title: 'À Propos de CLES PRO : Serrurier, Expertise Clés Auto et Sécurité à Metz',
+        description: 'Découvrez l\'équipe CLES PRO, votre spécialiste en reproduction et réparation de clés de voiture, moto et domicile depuis [Année]. Des professionnels à votre service à Metz.'
       }
     },
     {
       path: '/services',
       name: 'services',
       component: Services,
-      meta: {
-        title: 'Services - CLES PRO',
-        description: 'liste des services de CLES PRO'
+       meta: {
+        title: 'Services CLES PRO : Clés Auto, Plip, Barillet, Neiman et Reproduction',
+        description: 'Découvrez nos services complets : diagnostic, réparation électronique, reproduction de clé, remplacement de Barillet, Neiman, Plip et Antivol. Votre serrurier à Metz.'
       }
     },
     {
       path: '/contact',
       name: 'contact',
       component: Contact,
-      meta: {
-        title: 'Contact - CLES PRO',
-        description: 'page de contact de CLES PRO'
+       meta: {
+        title: 'Contact CLES PRO - Atelier de Réparation de Clé Auto et Serrurier à Woippy (Metz)',
+        description: 'Besoin d\'un serrurier pour une clé cassée, un plip défectueux ou un Neiman ? Contactez CLES PRO. Trouvez notre adresse à Woippy et notre numéro de téléphone.'
       }
     }
   ],

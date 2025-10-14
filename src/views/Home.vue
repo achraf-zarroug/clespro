@@ -20,14 +20,15 @@
     alt="GMS57 - Groupe Motors Sport" 
     class="mx-auto"
   />
-
+<h1 class="   font-extrabold mb-4 animate-slideIn">
+        CLÉS PRO : Votre Serrurier Spécialiste de la Clé Auto et de Sécurité à Metz
+    </h1>
   <!-- Texte descriptif -->
   <p class="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed text-gray-300 animate-slideIn delay-200">
     <span class="block text-white font-semibold text-xl md:text-2xl mb-2"></span>
     <span class="block text-[#85c5db] font-extrabold text-lg md:text-xl drop-shadow-[0_0_1px_grey]">
       Votre Partenaire Expert en Sécurité et Mobilité</span>
   </p>
-
   <!-- Boutons CTA -->
   <div class="flex flex-col sm:flex-row justify-center gap-4 mt-8 animate-fadeIn delay-300 drop-shadow-[0_0_1px_grey]">
    <a 
@@ -44,6 +45,7 @@
 
 
   </div>
+  
 </div>
 
 </section>

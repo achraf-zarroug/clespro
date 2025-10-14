@@ -1,8 +1,9 @@
 <template>&nbsp;
   <div class="py-20 bg-white">&nbsp;
     <div class="container mx-auto px-4">
-      <h1 class="text-5xl font-bold text-black text-center mb-12">Contactez <span class="bg-gradient-to-r from-[#40688c] to-[#85c5db]
-         bg-clip-text text-transparent">Clés Pro</span></h1>
+      <h1 class="text-5xl font-bold text-black text-center mb-12">Contactez Votre Serrurier Auto :
+         <span class="bg-gradient-to-r from-[#40688c] to-[#85c5db] bg-clip-text text-transparent">
+        CLES PRO</span></h1>
       
       <div class="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
         <!-- Contact Form -->
@@ -105,14 +106,53 @@
       </div>
     </div>
   </div>
+    <SchemaMarkup :markup="localBusinessSchema" />
+
 </template>
 
 <script lang="ts">
 import { ref } from 'vue'
 import emailjs from "emailjs-com"
+import SchemaMarkup from '../components/SchemaMarkup.vue';
+
 export default{
 name: 'Contact',
+components: {
+    SchemaMarkup // <-- Déclarez le composant
+  },
 setup(){
+  // Le JSON-LD est stocké comme une constante JavaScript
+const localBusinessSchema = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Clés Pro",
+  "url": "https://www.clespro.fr",
+  "image": "https://www.clespro.fr/images/votre-logo-clespro-hq.png",
+  "telephone": "+33758563529",
+  "email": "laghak@yahoo.fr",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "12 RUE DE LA GARE",
+    "addressLocality": "Woippy",
+    "postalCode": "57140",
+    "addressRegion": "Grand Est",
+    "addressCountry": "FR"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "19:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "09:00",
+      "closes": "17:30"
+    }
+  ]
+});
 const form = ref({
   name: '',
   email: '',
@@ -127,7 +167,7 @@ const submitForm = () => {
     to_email: "laghak@yahoo.fr" // destinataire
   }
 
-  emailjs.send("service_e3h5it4", "template_a68n61k", templateParams, "SPoSZA9MtyH-1cJsx")
+  emailjs.send("service_1phbb89", "template_b2m6fxe", templateParams, "QxGF81xBp2fCvx9it")
     .then(() => {
       alert("Message envoyé avec succès ✅")
       form.value = { name: "", email: "", message: "" }
@@ -139,7 +179,7 @@ const submitForm = () => {
     })
 }
 return{
-    form,submitForm
+    form,submitForm,localBusinessSchema
 }
 }
 }
