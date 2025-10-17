@@ -164,7 +164,7 @@ const submitForm = () => {
     from_name: form.value.name,
     from_email: form.value.email,
     message: form.value.message,
-    to_email: "laghak@yahoo.fr" // destinataire
+    time: new Date().toLocaleString()
   }
 
   emailjs.send("service_1phbb89", "template_b2m6fxe", templateParams, "QxGF81xBp2fCvx9it")
