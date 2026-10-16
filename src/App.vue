@@ -5,6 +5,7 @@ import HeaderShow from './components/HeaderShow.vue';
 </script>
 
 <template>
+<<<<<<< HEAD
   <div class="min-h-screen bg-[#080b11] text-slate-100 flex flex-col selection:bg-sky-500 selection:text-white relative">
     <HeaderShow />
     <main class="flex-grow pt-20">
@@ -39,6 +40,14 @@ import HeaderShow from './components/HeaderShow.vue';
         <span class="hidden sm:inline font-semibold text-sm">Devis WhatsApp direct</span>
       </a>
     </div>
+=======
+  <div class="min-h-screen bg-black text-white">
+    <HeaderShow />
+    <main>
+      <RouterView />
+    </main>
+    <FooterShow />
+>>>>>>> 4bd727a53b9521e15b01da79e4fb309c0f1e6ee6
   </div>
 </template>
 

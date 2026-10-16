@@ -5,6 +5,7 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
+<<<<<<< HEAD
     extend: {
       colors: {
         primary: {
@@ -44,6 +45,9 @@ export default {
         }
       }
     },
+=======
+    extend: {},
+>>>>>>> 4bd727a53b9521e15b01da79e4fb309c0f1e6ee6
   },
   plugins: [],
 }

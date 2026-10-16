@@ -1,6 +1,7 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+<<<<<<< HEAD
 
 @layer base {
   html {
@@ -73,4 +74,12 @@
 
 .gradient-cyan {
   background: linear-gradient(135deg, #0284c7 0%, #38bdf8 100%);
+=======
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+>>>>>>> 4bd727a53b9521e15b01da79e4fb309c0f1e6ee6
 }

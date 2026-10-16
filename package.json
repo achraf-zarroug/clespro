@@ -11,16 +11,26 @@
   "dependencies": {
     "emailjs-com": "^3.2.0",
     "lucide-vue-next": "^0.544.0",
+<<<<<<< HEAD
     "vite-imagetools": "^12.0.1",
+=======
+    "vite-imagetools": "^8.0.0",
+>>>>>>> 4bd727a53b9521e15b01da79e4fb309c0f1e6ee6
     "vue": "^3.5.13",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
     "@vue/tsconfig": "^0.7.0",
+<<<<<<< HEAD
     "autoprefixer": "^10.6.1",
     "postcss": "^8.5.30",
     "tailwindcss": "^3.4.19",
+=======
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.1",
+>>>>>>> 4bd727a53b9521e15b01da79e4fb309c0f1e6ee6
     "typescript": "~5.7.2",
     "vite": "^6.2.0",
     "vite-plugin-sitemap": "^0.8.2",
